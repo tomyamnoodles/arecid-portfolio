@@ -1,0 +1,76 @@
+/* **********************************************************
+ * common styles including (padding, margin) spacing 
+ * and colors. 
+ * ********************************************************** */
+
+:root {
+    /* font-size */
+    --font-size-xs:0.6rem;
+    --font-size-s:0.75rem;
+    --font-size-m:1.0rem;
+    --font-size:1.25rem;
+    --font-size-l:1.5rem;
+    --font-size-xl:3.5rem;
+    --font-size-xxl:5.5rem;
+    --font-size-4x:6rem;
+    --font-size-8x:12rem;
+    --font-size-10x:15rem;
+    --font-size-title:1.25rem;
+
+
+    /* spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-s: 1rem;
+    --spacing-m: 2rem;
+    --spacing-l: 6rem;
+    --spacing-xl: 12rem;
+
+
+    /* color */
+    --color-0: black; 
+    --color-1: white;
+    --color-2: #222;
+    --color-3: #ccc;
+    --color-4: #f0ffe6;
+    --color-5: rgb(238, 170, 212);
+    --color-6: orange;
+    --color-7: lime;
+    --color-8: green;
+    --color-9: darkgreen;
+    --color-10: dodgerblue;
+    --color-11: blue;
+    --color-white:white;
+    --color-black:black;
+    
+    --color-bg:#8278E7;
+    --color-fg:rgb(255, 255, 255);
+    --color-link: black;
+    --color-link-hover: coral;
+    --color-title:white;
+    --color-nav-link: var(--color-title);
+    --color-nav-link-hover: #222;
+
+
+    --width-min: 60rem;
+    --width-max: 72rem;
+    --width-half: 50%;
+    --width-all: 100%;
+
+    --transition-speed:0.3s;
+
+    --debug:0; /* to see borders around boxes, set debug to 1px */
+}
+
+
+main {
+    margin-top:100vh;
+    background-color: var(--color-bg);
+    color:var(--color-fg);
+}
+
+
+footer {
+    background-color: var(--color-bg);
+    color:var(--color-fg);
+}
+

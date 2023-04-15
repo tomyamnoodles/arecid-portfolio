@@ -1,0 +1,68 @@
+/* **********************************************************
+ * add custom styles after imports below
+ * ********************************************************** */
+
+@import "../default.css";
+@import "layout.css";
+@import "queries.css";
+
+/* **********************************************************
+ * to import a font, use the @import option, you can find
+ * lots of font options at fonts.google.com for example.
+ * ********************************************************** */
+
+
+@import url("https://use.typekit.net/ubz2liq.css");
+@import url("https://use.typekit.net/ubz2liq.css");
+@import url("https://use.typekit.net/ubz2liq.css");
+
+
+
+html {
+    font-family: tenon, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* **********************************************************
+ * Customizing
+ *
+ * changes to default settings like colors, typography,
+ * spacing can be made in default.css
+ *
+ * other custom settings, start below
+ *
+ * ********************************************************** */
+
+
+body {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+a {
+    color: var(--color-0);
+}
+
+a:hover {
+    color: var(--color-5);
+    text-decoration-color: transparent;
+}
+
+p>a {
+    color: inherit;
+    font: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+@media (orientation: portrait) {
+    * {
+        font-size: 18px;
+    }
+}
